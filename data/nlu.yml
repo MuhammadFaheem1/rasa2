@@ -1,0 +1,162 @@
+version: "3.1"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - mornin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+- intent: faq/process_quit_vaping
+  examples: |
+    - can you please help me to stop vaping
+    - do help me on the step by step process to quit vaping
+    - is there any methods to help quit vaping
+    - is there any methods to quit vaping?
+    - quit vaping process
+    - stop vaping process
+    - help me quit vaping
+    - what are the type of vaping treatment available?
+    - can you tell me the type of vaping treatment?
+    - type of treatment
+    - explain type of treatment
+    - is there any treatment to be recommend?
+    - discuss on the treatment type
+    - can u explain on the type of treatment
+    - can I see the treatment available for vaping
+    - how to quit vaping?
+- intent: faq/benefits_quitting_vaping
+  examples: |
+    - what is the benefits of quitting vaping?
+    - what are the consequences of quitting vaping?
+    - benefits quitting vape
+    - is there any benefits quitting vaping?
+    - can you explain the benefits of quitting vape?
+    - benefits of stopping vape?
+    - advantages stop vaping
+    - what I get if I quit vaping?
+    - is there any reward if i quit vaping?
+- intent: faq/effect
+  examples: |
+    - What is the effect of vaping?
+    - effect of vaping
+    - give vaping effect
+    - discuss vaping effect
+    - explain on the effect of vaping
+    - elaborate on the effect of vaping
+    - Is there any negative effect when vaping?
+    - I want to know the consequences of vaping
+    - what is the conqsequences of vaping
+    - bad consequences of vaping
+    - I want to discuss on the effect of vaping
+    - What is the side effect of vaping
+    - vaping is bad?
+    - bad effect of vaping
+    - negative effect of vaping
+    - negative of vaping
+    - negative effect vaping give
+    - bad effect vaping brings
+- intent: faq/tips_on_quitting_vaping
+  examples: |
+    - can you give me some tips to quit vaping
+    - I want to know more about quit vaping tips
+    - are there any tips so that I can quit vaping for good?
+    - quit vaping tips?
+    - explain tips to quit vaping
+    - discuss on quit vaping strategy
+    - I want some advice to quit vaping
+    - is there any advice on how to quit vaping?
+    - can we discuss on the advice to quit vaping?
+    - cna you give me some advice on how to quit vaping
+- intent: faq/encouragement
+  examples: |
+    - can you encourage me?
+    - can u motivate me?
+    - can you please give me some motivational quote?
+    - I need some encouragement
+    - please do enlight my spirit
+    - i need some motivation
+    - motivational quote
+    - do cheer me up
+- intent: faq/about_me
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - may I know more about you
+    - who are you
+    - what are you
+    - are you not human
+    - Who ?
+- intent: feedback
+  examples: |
+    - It was amazing
+    - there are several things that needed to be improved
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - sure
+    - yeap
+    - yeah
+    - yea
+    - yeazza
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    - nope
+    - nah
+- intent: chitchat
+  examples: |
+    - may I know the cost of vaping device?
+    - is quitting vaping hard?
+    - explain on the danger of nicotine
+    - what is vaping?
+    - what is the cost of vaping?
+    - what is the ingredients inside vape?
+- intent: faq
+  examples: |
+    - give me some tips to stop vaping
+    - may I know the methods to quit vaping
+    - how to quit vaping?
+    - can i get some tips to quit vaping
+    - how to quit vape?
+    - may I know what are you?
+    - what are the effects of vaping?
+    - what is your name?
+    - can i u tell how to quit vaping?
+- intent: restart
+  examples: |
+    - restart
+

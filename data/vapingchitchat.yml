@@ -1,0 +1,84 @@
+version: "3.1"
+nlu:
+- intent: chitchat/quit_vaping_hard?
+  examples: |
+    - is it hard to quit vaping?
+    - is it easy to quit vaping?
+    - quit vaping easy?
+    - quit vaping hard?
+- intent: chitchat/duration_to_quit_vape
+  examples: |
+    - is the time taken to quit vaping long?
+    - is the time taken to quit vaping is short?
+    - durationg to quit vaping?
+    - quit vaping duration?
+    - time taken for a person to quit vaping?
+- intent: chitchat/what_is_vaping
+  examples: |
+    - what is vaping?
+    - vaping?
+- intent: chitchat/vape_products
+  examples: |
+    - What are the different vape products?
+    - what are the different vaping devices?
+    - vaping devices?
+    - vaping products has many types?
+    - vaping products?
+- intent: chitchat/e_liquid
+  examples: |
+    - What is in vape juice or e-liquid?
+    - what is the ingredient contain in the vape liquid?
+    - ingredient in vape juice?
+    - ingredient in vape liquid?
+    - vape juice ingredient
+    - vape liquid ingredient
+    - What is in vape juice or e-liquid?
+    - what is the substances contain in the vape liquid?
+    - substances in vape juice?
+    - substances in vape liquid?
+    - vape juice substances
+    - vape liquid substances
+- intent: chitchat/vaping_vs_smoking
+  examples: |
+    - Is vaping healthier than smoking cigarettes?
+    - vaping vs smoking
+    - vaipng or smoking
+    - vaping healtheier than smoking?
+- intent: chitchat/nicotine_dangerous
+  examples: |
+    - Is nicotine dangerous?
+    - danger of nicotine
+    - nicotine bad?
+    - negative effect of nicotine
+    - bad effect of nicotine
+    - consequences of nicotine
+- intent: chitchat/vaping_help_quit_smoking?
+  examples: |
+    - Can vaping help you quit smoking?
+    - vaping can assist smoking cessation?
+    - vaping help smoking?
+- intent: chitchat/vaping_legal?
+  examples: |
+    - Is vaping legal?
+    - vaping legal?
+    - vape is ok?
+- intent: chitchat/2nd_hand_vapour_dangerous?
+  examples: |
+    - Is secondhand vapour harmful?
+    - secondhhand vapour?
+- intent: chitchat/cost_vape
+  examples: |
+    - How much does vape device cost it cost?
+    - vape cost
+    - cost of vape device
+    - vost of vape
+
+- intent: out_of_scope
+  examples: |
+    - what do you do with my data?
+    
+- intent: chitchat/name
+  examples: |
+    - what is your name?
+
+- intent: cht

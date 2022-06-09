@@ -1,0 +1,39 @@
+version: "3.1"
+
+rules:
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: respond to FAQs
+  steps:
+  - intent: faq
+  - action: utter_faq
+  - action: utter_asking_if_user_need_more_help
+
+- rule: respond to chitchat
+  steps:
+  - intent: chitchat
+  - action: utter_chitchat
+  - action: utter_asking_if_user_need_more_help
+
+- rule: Single stage fallback 
+  steps:
+  - intent: nlu_fallback
+  - action: utter_fallback
+
+- rule: restart
+  steps:
+  - intent: restart
+  - action: action_restart
+  - action: utter_greet
+  - action: utter_vaping_details
+
+
+- rule: out of scope
+  steps:
+  - intent: out_of_scope
+  - action: utter_out_of_scope
+  - action: utter_vaping_details
+

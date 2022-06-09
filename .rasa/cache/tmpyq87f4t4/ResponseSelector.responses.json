@@ -1,0 +1,96 @@
+{
+  "utter_faq/process_quit_vaping": [
+    {
+      "text": "1) Tempering down  \n This method suggest that you need to reduce the nicotine intake by 20% within 2 weeks until you completely stops vaping. Let’s say as per usual, the nicotine intake for each time you vape is around 10ml. In the next 2 weeks, you need to reduce it to 8ml as it reduces up to 20% of nicotine intake. If the mathematics calculation scares you, let’s tone it down a little bit by representing the volume of nicotine intake with the number of puffs you had for each vaping session. Similar to the previous example, 10 puffs in each session will be reduced to 8 puffs in each session in the next 2 weeks. This will goes on until your dependencies on nicotine are reduced and you are able to completely stops vaping. Easier said than done, you must strengthen your resolve to quit vaping. The next method that can be coupled with the tempering down method is behavioural intervention.  \n\n 2) Behavioural intervention  \n This method suggest that you need to prevent any habitual behavior that can triggers you to vape. For your information, every people has their own habitual actions that they did either prior to a certain action or the sequel to it. The same goes for vapers, they also display this habitual behaviour whenever they are about to vape. For example, some vapers have the habit of vaping right after they eat. Some vapers vape whenever they had some sweet drinks. These are just examples of habitual behaviour that vapers might have. Each has its own different habitual behaviour that they do. Now, what was the point of telling all of this? How are habitual actions related to vaping cessation? For a fact they did relate, their brain has recorded his habitual behaviour as a trigger for the next action to vape. Now that we know, this behaviour needed to be stopped to avoid these so-called vaping triggers. To do that, one must know their own habitual behaviour and uses the DEAD method. D = Delay, E = Escape, A = Avoid, D = Distract. As the acronym implies, we must delay our behaviour actions, escape any situations that can lead to us vaping, avoid anything that can trigger the behaviour and last, distract ourselves from doing the behaviour. This DEAD method can also be used whenever vapers had their withdrawal symptom.  \n"
+    }
+  ],
+  "utter_faq/about_me": [
+    {
+      "text": "I am a bot, created by faheem. My job is to guide those who are committed to quit vaping. Lots of materials that cover the complete aspect of vaping cessation process will be provided."
+    }
+  ],
+  "utter_faq/benefits_quitting_vaping": [
+    {
+      "text": "Benefits of quitting vape are removal of nicotine from inside body, returns blood circulation back to normal, increases lung capacity, reduces the risk of heart attack, decreases the danger of stroke, reduced cancer possibility, and many more.  \n\n Further information can be read in this website page, [Benefits of Quitting Vaping](http://10.1.2.14/quitvape/?page_id=14)"
+    }
+  ],
+  "utter_faq/effect": [
+    {
+      "text": "The long term effect of vaping has not yet been conclusive but there are studies shows that vaping causes nicotine addiction, EVALI and increased risk of COVID-19.  \n\n Further information can be read in this website page, [Negative Effect of Vaping](http://10.1.2.14/quitvape/?page_id=21)"
+    }
+  ],
+  "utter_faq/tips_on_quitting_vaping": [
+    {
+      "text": "Some of the recommended tips available are, first, identify the main trigger or cues that make you want to vape. Taking notes on potential triggers may help you formulate a plan to quit vaping.  \n Second, need for a strategy for withdrawal and cravings. Some of the actions that are normally used to combat these cravings are deep breathing and meditation.  \n Third, let those close around you know about your commitment to quitting vaping. The reason is to make them conscious that any vaping triggers should be avoided and also to help you on your journey.  \n\n\nFurther information can be read in this website page, [Tips To Quit Vaping](http://10.1.2.14/quitvape/?page_id=23)"
+    }
+  ],
+  "utter_faq/encouragement": [
+    {
+      "text": "Success is not final,  \n\n Failure is not fatal,  \n\n It is the courage to continue that counts. 🔥🔥"
+    },
+    {
+      "text": "Don't give up,  \n\n The beginning is always the hardest. 🔥🔥"
+    },
+    {
+      "text": "Don't focus on the pain,  \n\n Focus on the progress. 🔥🔥"
+    },
+    {
+      "text": "Don't worry if you're not where you want to be yet,  \n\n Great things takes time. 🔥🔥"
+    }
+  ],
+  "utter_chitchat/quit_vaping_hard?": [
+    {
+      "text": "It is hard to quit vape, you need strengthen your resolve and plan carefully. Worry not, this is the reason why I was created. To help you."
+    }
+  ],
+  "utter_chitchat/duration_to_quit_vape": [
+    {
+      "text": "The duration is depend on the owner itself. The duration for the vapers to completely affected by their will and their plan. Some can stop abruptly with their will alone, some may had some setbacks through their journey. It is up to the owner."
+    }
+  ],
+  "utter_chitchat/what_is_vaping": [
+    {
+      "text": "Inhaling a vaporized liquid from an electronic device is known as vaping. Nicotine, flavoring, and other substances are typically found in vapor. THC, the ingredient in marijuana that causes the user to feel \"high,\" may be found in some vape juice."
+    }
+  ],
+  "utter_chitchat/vape_products": [
+    {
+      "text": "E-cigarettes, e-cigs, smokeless cigarettes, Juul, Puff Bar, vaporizers, vape, vape pens, mods, tanks, cigalikes, e-hookah, and hookah pens are all common terms for vaping devices. These come in a wide range of sizes, shapes, and designs. Others are big and box-like, resembling computer flash drives or highlighters."
+    }
+  ],
+  "utter_chitchat/e_liquid": [
+    {
+      "text": "Vape juice or e-liquid is the liquid that is vaporized into an aerosol cloud. Vape juice most commonly contains three ingredients, propylene glycol and/or glycerin, chemicals for flavoring and nicotine."
+    }
+  ],
+  "utter_chitchat/vaping_vs_smoking": [
+    {
+      "text": "Although some argue that vaping is less risky than smoking, this does not imply that vaping is risk-free. To put it another way, \"safer\" does not imply \"safe.\" According to studies, aerosol mist can contain harmful substances such as heavy metals and compounds linked to cancer and other disorders. Regardless of whether or not there is nicotine, vape producers combine substances that are toxic when inhaled to create flavors. The compounds have the potential to harm one's heart, lungs, and immune system. Furthermore, most vape devices include nicotine, a very addictive substance. Human brain development lasts much longer than previously thought (until age 25), and nicotine use during adolescence and young adulthood has been linked to long-term cognitive deficits, including memory and attention problems."
+    }
+  ],
+  "utter_chitchat/nicotine_dangerous": [
+    {
+      "text": "Nicotine is a highly addictive and hazardous substance. It can lead to an increase in blood pressure, heart rate, blood flow to the heart, and artery constriction (vessels that carry blood). Nicotine may also contribute to artery wall hardening, which can lead to a heart attack. Depending on how often you smoke, this substance can linger in your body for six to eight hours. There are also some withdrawal symptoms, like with most addictive substances. Even more nicotine is delivered by some e-cigarettes and newer tobacco products than by regular cigarettes."
+    }
+  ],
+  "utter_chitchat/vaping_help_quit_smoking?": [
+    {
+      "text": "Scientific evidence is overwhelming that vaping can aid in the cessation of smoking in some people. In many countries, including the United Kingdom and the United States, personal e-cigs are now the most popular smoking cessation aid. Modern devices can deliver nicotine at the same amounts as tobacco cigarettes, reducing the desire to smoke as well as nicotine withdrawal symptoms including irritation and lack of focus. Smoking's psychological and hand-to-mouth elements are also replicated."
+    }
+  ],
+  "utter_chitchat/vaping_legal?": [
+    {
+      "text": "Malaysia's Ministry of Health (MOH) confirmed that its planned smoking ban for anybody born after 2005 includes vape, e-cigarettes, and heated tobacco products, as well as cigarettes and tobacco products. Malaysian Health Minister Khairy Jamaluddin announced plans to prohibit the sale of cigarettes and tobacco products to anyone born after 2005 at the World Health Organization's (WHO) executive board meeting in Geneva, in an effort to make smoking illegal for the next generation."
+    }
+  ],
+  "utter_chitchat/2nd_hand_vapour_dangerous?": [
+    {
+      "text": "Bystander risk from 'passive vaping' appears to be low. When a vaper exhales, very little amounts of nicotine and other chemicals are released into the air, which quickly evaporate. Indoor vaping, however, should be avoided near children, pregnant women, and those who have heart or lung illness."
+    }
+  ],
+  "utter_chitchat/cost_vape": [
+    {
+      "text": "Vape devices in Malaysia, cost more than RM20."
+    }
+  ]
+}

@@ -1,0 +1,356 @@
+05/06/2022 14:47:21
+
+greet,/greet__-->utter_greet-->utter_make_choice-->utter_vaping_details
+faq,I want to discuss on the effect of vaping__-->utter_faq/effect-->utter_asking_if_user_need_more_help
+affirm,/affirm__-->utter_vaping_details
+faq,can you tell me on the type of treatment available?__-->utter_faq/type_of_treatment-->utter_asking_if_user_need_more_help
+deny,/deny__-->utter_end_of_conversation-->utter_feedback_confirmation
+deny,/deny__-->utter_thankyou-->utter_restart
+deny,/deny__-->utter_goodbye05/06/2022 14:53:37
+
+greet,/greet__-->utter_greet-->utter_make_choice-->utter_vaping_details
+faq,/faq/benefits_quitting_vaping__-->utter_faq/benefits_quitting_vaping-->utter_asking_if_user_need_more_help
+affirm,yes__-->utter_vaping_details
+faq,/faq/about_me__-->utter_faq/about_me-->utter_asking_if_user_need_more_help
+deny,/deny__-->utter_end_of_conversation-->utter_feedback_confirmation
+affirm,/affirm__-->utter_feedback_form-->utter_thankyou-->utter_restart
+deny,/deny__-->utter_goodbye05/06/2022 14:54:44
+
+greet,/greet__-->utter_greet-->utter_make_choice-->utter_vaping_details
+out_of_scope,dqewoiqweqw__
+restart,/restart__-->utter_restart
+affirm,/affirm__
+greet,hi!__-->utter_greet-->utter_make_choice-->utter_vaping_details
+faq,/faq/tips__-->utter_faq/
+tips_on_quitting_vaping-->utter_asking_if_user_need_more_help
+deny,/deny__-->utter_end_of_conversation-->utter_feedback_confirmation
+deny,/deny__-->utter_thankyou-->utter_restart
+deny,/deny__-->utter_goodbye05/06/2022 18:56:20
+
+greet,/greet__-->utter_greet-->utter_make_choice-->utter_vaping_details
+faq,I want to know the effect of vaping__-->utter_faq/effect-->utter_asking_if_user_need_more_help
+affirm,Yes__-->utter_vaping_details
+nlu_fallback,I want to stop vaping. What can I do to stop vaping?__-->utter_fallback
+faq,I need some encouragement to stop vaping.__-->utter_faq/encouragement-->utter_asking_if_user_need_more_help
+affirm,Hell yeah__
+restart,/restart__-->utter_restart
+affirm,/affirm__
+greet,Hi__-->utter_greet-->utter_make_choice-->utter_vaping_details
+nlu_fallback,If I quit vaping, what is the advantage that I will get?__-->utter_fallback
+faq,Who are you?__-->utter_faq/about_me-->utter_asking_if_user_need_more_help
+affirm,Yeahhh__
+restart,/restart__-->utter_restart
+affirm,/affirm__
+greet,Hello__-->utter_greet-->utter_make_choice-->utter_vaping_details
+faq,I want to know the consequences of vaping__-->utter_faq/benefits_quitting_vaping-->utter_asking_if_user_need_more_help
+deny,No__-->utter_end_of_conversation-->utter_feedback_confirmation
+deny,No__-->utter_thankyou-->utter_restart
+affirm,Yes__-->utter_greet-->utter_make_choice-->utter_vaping_details
+deny,No__
+restart,/restart__-->utter_restart
+deny,No__
+restart,/restart__-->utter_restart
+affirm,/affirm__
+restart,/restart__-->utter_restart
+affirm,/affirm__
+greet,Hi__-->utter_greet-->utter_make_choice-->utter_vaping_details
+faq,/faq/type_of_treatment__-->utter_faq/type_of_treatment-->utter_asking_if_user_need_more_help
+deny,/deny__-->utter_end_of_conversation-->utter_feedback_confirmation
+deny,/deny__-->utter_thankyou-->utter_restart
+deny,/deny__-->utter_goodbye05/06/2022 21:39:53
+
+greet,/greet__-->utter_greet-->utter_make_choice-->utter_vaping_details
+faq,can u explain on the type of treatment?ORG,u__-->utter_faq/type_of_treatment-->utter_asking_if_user_need_more_help
+affirm,yea__-->utter_vaping_details
+faq,/faq/encouragement__-->utter_faq/encouragement-->utter_asking_if_user_need_more_help
+deny,nah__-->utter_end_of_conversation-->utter_feedback_confirmation
+deny,nope__-->utter_thankyou-->utter_restart
+deny,/deny__-->utter_goodbye05/06/2022 21:40:43
+
+greet,/greet__-->utter_greet-->utter_make_choice-->utter_vaping_details
+faq,Can I see the treatment available for vaping__-->utter_faq/type_of_treatment-->utter_asking_if_user_need_more_help
+affirm,Yeah__-->utter_vaping_details
+faq,What is the side effect of vaping__-->utter_faq/effect-->utter_asking_if_user_need_more_help
+affirm,Sure__-->utter_vaping_details
+faq,I want some advice to quit vaping__-->utter_faq/tips_on_quitting_vaping-->utter_asking_if_user_need_more_help
+affirm,Hell yeah__-->utter_vaping_details
+out_of_scope,Can I know you better?__
+restart,/restart__-->utter_restart
+affirm,/affirm__
+greet,Hello__-->utter_greet-->utter_make_choice-->utter_vaping_details
+faq,/faq/about_me__-->utter_faq/about_me-->utter_asking_if_user_need_more_help
+deny,/deny__-->utter_end_of_conversation-->utter_feedback_confirmation
+deny,/deny__-->utter_thankyou-->utter_restart
+deny,/deny__-->utter_goodbye05/06/2022 21:57:05
+
+greet,/greet__-->utter_greet-->utter_make_choice-->utter_vaping_details
+faq,what are you__-->utter_faq/about_me-->utter_asking_if_user_need_more_help
+affirm,yeah__-->utter_vaping_details
+faq,/faq/type_of_treatment__-->utter_faq/type_of_treatment-->utter_asking_if_user_need_more_help
+affirm,yeah__-->utter_vaping_details
+faq,type of vaping__-->utter_faq/type_of_treatment-->utter_asking_if_user_need_more_help
+deny,nope__05/06/2022 22:34:34
+
+greet,/greet__-->utter_greet-->utter_make_choice-->utter_vaping_details
+request_program,how can i quit vaping__
+restart,/restart__-->utter_restart
+affirm,/affirm__
+greet,hi__-->utter_greet-->utter_make_choice-->utter_vaping_details
+faq,what is the benefit and disadvantageous of vaping__-->utter_faq/benefits_quitting_vaping-->utter_asking_if_user_need_more_help
+deny,/deny__05/06/2022 22:38:01
+
+greet,/greet__-->utter_greet-->utter_make_choice-->utter_vaping_details
+faq,what is the effect of vaping__-->utter_faq/effect-->utter_asking_if_user_need_more_help
+request_program,how can i quit vaping__
+restart,/restart__-->utter_restart
+affirm,/affirm__
+greet,hi__-->utter_greet-->utter_make_choice-->utter_vaping_details
+faq,what is the type of vaping treatment__-->utter_faq/type_of_treatment-->utter_asking_if_user_need_more_help
+affirm,/affirm__-->utter_vaping_details
+faq,what is the motivational quote of the vaping__-->utter_faq/encouragement-->utter_asking_if_user_need_more_help
+affirm,/affirm__-->utter_vaping_details
+faq,what is benefits of quitting vaping__-->utter_faq/benefits_quitting_vaping-->utter_asking_if_user_need_more_help
+affirm,/affirm__
+out_of_scope,next__-->utter_out_of_scope
+restart,/restart__-->utter_restart
+affirm,/affirm__
+greet,hi__-->utter_greet-->utter_make_choice-->utter_vaping_details
+faq,what is tips on quitting vaping__-->utter_faq/tips_on_quitting_vaping-->utter_asking_if_user_need_more_help
+affirm,/affirm__-->utter_vaping_details
+faq,who are you__-->utter_faq/about_me-->utter_asking_if_user_need_more_help
+deny,/deny__05/06/2022 22:39:47
+
+greet,/greet__-->utter_greet-->utter_make_choice-->utter_vaping_details
+faq,I need some inspiring quotes__-->utter_faq/encouragement-->utter_asking_if_user_need_more_help
+nlu_fallback,Hell yeah__-->utter_fallback
+greet,Hi__
+restart,/restart__-->utter_restart
+affirm,/affirm__
+greet,Hello there__-->utter_greet-->utter_make_choice-->utter_vaping_details
+faq,Vaping medication__-->utter_faq/encouragement-->utter_asking_if_user_need_more_help
+affirm,Yea__-->utter_vaping_details
+faq,Consequence of vaping__-->utter_faq/effect-->utter_asking_if_user_need_more_help
+deny,No__05/06/2022 22:42:01
+
+greet,/greet__-->utter_greet-->utter_make_choice-->utter_vaping_details
+request_program,how can i quit vaping__
+restart,/restart__-->utter_restart
+affirm,/affirm__
+greet,hi__-->utter_greet-->utter_make_choice-->utter_vaping_details
+faq,what is the benefit and disadvantageous of vaping__-->utter_faq/benefits_quitting_vaping-->utter_asking_if_user_need_more_help
+deny,/deny__-->utter_end_of_conversation-->utter_feedback_confirmation
+affirm,/affirm__-->utter_feedback_form-->utter_thankyou-->utter_restart
+affirm,/affirm__-->utter_greet-->utter_make_choice-->utter_vaping_details
+nlu_fallback,should i quit vaping immediately?__-->utter_fallback
+faq,what is the first step to quit vapingORDINAL,first__-->utter_faq/tips_on_quitting_vaping-->utter_asking_if_user_need_more_help
+affirm,/affirm__
+nlu_fallback,what should i do to quit vape__-->utter_fallback
+faq,effect__-->utter_faq/effect-->utter_asking_if_user_need_more_help
+faq,tipsORG,tips__-->utter_faq/tips_on_quitting_vaping-->utter_asking_if_user_need_more_help
+faq,treatment__-->utter_faq/type_of_treatment-->utter_asking_if_user_need_more_help
+out_of_scope,what is my name__-->utter_out_of_scope
+nlu_fallback,fk uORG,fk u__-->utter_fallback
+goodbye,bye__-->utter_goodbye
+greet,hi__
+restart,/restart__-->utter_restart
+affirm,/affirm__
+greet,hello__-->utter_greet-->utter_make_choice-->utter_vaping_details
+out_of_scope,/faq/about_me__-->utter_out_of_scope
+restart,/restart__-->utter_restart
+affirm,/affirm__
+greet,hi__-->utter_greet-->utter_make_choice-->utter_vaping_details
+faq,/faq/benefits_quitting_vaping__-->utter_faq/benefits_quitting_vaping-->utter_asking_if_user_need_more_help
+deny,/deny__05/06/2022 23:15:38
+
+greet,/greet__-->utter_greet-->utter_make_choice-->utter_vaping_details
+faq,Side effect of vaping please__-->utter_faq/effect-->utter_asking_if_user_need_more_help
+affirm,Yes please__-->utter_vaping_details
+out_of_scope,I need to know the category of vaping__-->utter_out_of_scope
+nlu_fallback,Okay__-->utter_fallback
+faq,I need some encouragement quote__-->utter_faq/encouragement-->utter_asking_if_user_need_more_help
+deny,No__
+deny,N__
+deny,No__
+restart,/restart__-->utter_restart
+deny,/deny__
+restart,/restart__-->utter_restart
+deny,/deny__
+restart,/restart__-->utter_restart
+affirm,/affirm__
+greet,Heyyy__-->utter_greet-->utter_make_choice-->utter_vaping_details
+faq,I need some encouragement quotes__-->utter_faq/encouragement-->utter_asking_if_user_need_more_help
+deny,/deny__05/06/2022 23:18:40
+
+greet,/greet__-->utter_greet-->utter_make_choice-->utter_vaping_details
+faq,What are you?__-->utter_faq/about_me-->utter_asking_if_user_need_more_help
+affirm,Sure__-->utter_vaping_details
+out_of_scope,What is the perk of withdrawing from vaping__-->utter_out_of_scope
+faq,What is the perk of quitting vaping?__-->utter_faq/benefits_quitting_vaping-->utter_asking_if_user_need_more_help
+deny,/deny__05/06/2022 23:20:51
+
+greet,/greet__-->utter_greet-->utter_make_choice-->utter_vaping_details
+out_of_scope,Can I know the aftermath of vaping?__-->utter_out_of_scope
+out_of_scope,Can I know the outcome of vaping?__-->utter_out_of_scope
+faq,Can I know the consequence of vaping?__-->utter_faq/effect-->utter_asking_if_user_need_more_help
+deny,/deny__05/06/2022 23:27:27
+
+greet,/greet__-->utter_greet-->utter_make_choice-->utter_vaping_details
+faq,Hint to quit vaping__-->utter_faq/tips_on_quitting_vaping-->utter_asking_if_user_need_more_help
+deny,/deny__06/06/2022 07:57:17
+
+greet,hi__-->utter_greet-->utter_make_choice-->utter_vaping_details
+faq,I want to know more about quit vaping tips__-->utter_faq/tips_on_quitting_vaping-->utter_asking_if_user_need_more_help
+affirm,sure__-->utter_vaping_details
+out_of_scope,can I get a glass of water?__-->utter_out_of_scope
+faq,effect of vaping__-->utter_faq/effect-->utter_asking_if_user_need_more_help
+faq,I want to know more about the treatments__-->utter_faq/type_of_treatment-->utter_asking_if_user_need_more_help
+deny,no__-->utter_end_of_conversation-->utter_feedback_confirmation
+deny,/deny__-->utter_thankyou-->utter_restart
+affirm,sure__-->utter_greet-->utter_make_choice-->utter_vaping_details
+faq,motivational quote__-->utter_faq/encouragement-->utter_asking_if_user_need_more_help
+affirm,/affirm__-->utter_vaping_details
+out_of_scope,/faq/about_me__-->utter_faq/about_me
+faq,tips to quit vaping__-->utter_faq/tips_on_quitting_vaping-->utter_asking_if_user_need_more_help
+deny,/deny__06/06/2022 14:26:15
+
+greet,hi__-->utter_greet-->utter_make_choice-->utter_vaping_details
+faq,who are you?__-->utter_faq/about_me-->utter_asking_if_user_need_more_help
+affirm,yeazza__-->utter_vaping_details
+out_of_scope,ummm... what is 2 + 3?CARDINAL,2 + 3__-->utter_out_of_scope
+affirm,y__
+faq,may I know on the tips to stop vaping?__-->utter_faq/tips_on_quitting_vaping-->utter_asking_if_user_need_more_help
+deny,/deny__-->utter_asking_if_user_need_more_help-->utter_faq/tips_on_quitting_vaping-->utter_asking_if_user_need_more_help
+deny,/deny__06/06/2022 14:51:58
+
+greet,/greet__-->utter_greet-->utter_make_choice-->utter_vaping_details
+faq,/faq/about_me__-->utter_faq/about_me-->utter_asking_if_user_need_more_help
+affirm,/affirm__-->utter_vaping_details
+faq,/faq/type_of_treatment__-->utter_faq/type_of_treatment-->utter_asking_if_user_need_more_help
+deny,/deny__07/06/2022 09:28:43
+
+greet,/greet__-->utter_greet-->utter_make_choice-->utter_vaping_details
+faq,/faq/encouragement__-->utter_faq/encouragement-->utter_asking_if_user_need_more_help
+affirm,/affirm__-->utter_vaping_details
+faq,/faq/about_me__-->utter_faq/about_me-->utter_asking_if_user_need_more_help
+affirm,/affirm__-->utter_vaping_details
+faq,/faq/benefits_quitting_vaping__-->utter_faq/benefits_quitting_vaping-->utter_asking_if_user_need_more_help
+deny,/deny__07/06/2022 15:26:31
+
+greet,/greet__-->utter_greet-->utter_intro-->utter_make_choice-->utter_vaping_details
+faq,/faq/process_quit_vaping__-->utter_faq/process_quit_vaping-->utter_asking_if_user_need_more_help
+faq,give me the effect of vaping__-->utter_faq/effect-->utter_asking_if_user_need_more_help
+faq,give me the benefits of quitting vape__-->utter_faq/benefits_quitting_vaping-->utter_asking_if_user_need_more_help
+deny,no__07/06/2022 15:33:53
+
+greet,hi__-->utter_greet-->utter_intro-->utter_make_choice-->utter_vaping_details
+faq,can you teach me on the step by step process to quit vaping__-->utter_faq/process_quit_vaping-->utter_asking_if_user_need_more_help
+faq,yes, can you explain on the effect of vaping__-->utter_faq/effect-->utter_asking_if_user_need_more_help
+out_of_scope,No I don't want to ask anything more__
+deny,No__07/06/2022 15:42:51
+
+greet,hi__-->utter_greet-->utter_intro-->utter_make_choice-->utter_vaping_details
+faq,help me quit vaping__-->utter_faq/tips_on_quitting_vaping-->utter_faq/process_quit_vaping-->utter_vaping_details
+faq,give me some motivational quote__-->utter_faq/encouragement-->utter_asking_if_user_need_more_help
+deny,nope__07/06/2022 16:02:05
+
+greet,hi__-->utter_greet-->utter_intro-->utter_make_choice-->utter_vaping_details
+faq,can you help me quit vaping?__-->utter_faq/process_quit_vaping-->utter_asking_if_user_need_more_help
+faq,can you exlpain more on the tips of quit vaping?__-->utter_faq/tips_on_quitting_vaping-->utter_asking_if_user_need_more_help
+deny,no__07/06/2022 16:09:55
+
+greet,hi__-->utter_greet-->utter_intro-->utter_make_choice-->utter_vaping_details
+faq,/faq/about_me__-->utter_faq/about_me-->utter_asking_if_user_need_more_help
+affirm,yea__-->utter_vaping_details
+faq,give me the diosadvantages of vaping__-->utter_faq/benefits_quitting_vaping-->utter_faq/benefits_quitting_vaping-->utter_asking_if_user_need_more_help
+deny,no__07/06/2022 21:37:51
+
+greet,/greet__-->utter_greet-->utter_intro-->utter_make_choice-->utter_vaping_details
+faq,effect vaping__-->utter_faq/effect-->utter_asking_if_user_need_more_help
+affirm,yes__-->utter_vaping_details
+faq,/faq/process_quit_vaping__-->utter_faq/process_quit_vaping-->utter_asking_if_user_need_more_help
+deny,no__07/06/2022 21:42:09
+
+greet,/greet__-->utter_greet-->utter_intro-->utter_make_choice-->utter_vaping_details
+faq,effect vaping__-->utter_faq/effect-->utter_asking_if_user_need_more_help
+affirm,yes__-->utter_vaping_details
+faq,/faq/process_quit_vaping__-->utter_faq/process_quit_vaping-->utter_asking_if_user_need_more_help
+deny,no__-->utter_end_of_conversation-->utter_feedback_confirmation
+deny,no__-->utter_thankyou-->utter_restart
+deny,no__-->utter_goodbye
+restart,/restart__-->utter_restart
+affirm,yes__
+greet,hi__-->utter_greet-->utter_intro-->utter_make_choice-->utter_vaping_details
+faq,/faq/encouragement__-->utter_faq/encouragement-->utter_asking_if_user_need_more_help
+affirm,yea__-->utter_vaping_details
+faq,/faq/tips__-->utter_faq/tips_on_quitting_vaping-->utter_asking_if_user_need_more_help
+deny,no__07/06/2022 21:42:11
+
+greet,/greet__-->utter_greet-->utter_intro-->utter_make_choice-->utter_vaping_details
+faq,effect vaping__-->utter_faq/effect-->utter_asking_if_user_need_more_help
+affirm,yes__-->utter_vaping_details
+faq,/faq/process_quit_vaping__-->utter_faq/process_quit_vaping-->utter_asking_if_user_need_more_help
+deny,no__-->utter_end_of_conversation-->utter_feedback_confirmation
+deny,no__-->utter_thankyou-->utter_restart
+deny,no__-->utter_goodbye
+restart,/restart__-->utter_restart
+affirm,yes__
+greet,hi__-->utter_greet-->utter_intro-->utter_make_choice-->utter_vaping_details
+faq,/faq/encouragement__-->utter_faq/encouragement-->utter_asking_if_user_need_more_help
+affirm,yea__-->utter_vaping_details
+faq,/faq/tips__-->utter_faq/tips_on_quitting_vaping-->utter_asking_if_user_need_more_help
+deny,no__-->utter_end_of_conversation-->utter_feedback_confirmation
+deny,no__-->utter_thankyou-->utter_restart
+deny,no__-->utter_goodbye
+deny,n__07/06/2022 21:50:49
+
+greet,/greet__-->utter_greet-->utter_intro-->utter_make_choice-->utter_vaping_details
+faq,/faq/effect__-->utter_faq/effect-->utter_asking_if_user_need_more_help
+affirm,yeah__-->utter_vaping_details
+faq,/faq/benefits_quitting_vaping__-->utter_faq/benefits_quitting_vaping-->utter_asking_if_user_need_more_help
+deny,nope__09/06/2022 17:58:35
+
+greet,hey__-->utter_greet-->utter_intro-->utter_vaping_details
+chitchat,may I know the cost of vaping device?__-->utter_chitchat/cost_vape-->utter_asking_if_user_need_more_help
+faq,give me some tips to stop vaping__-->utter_faq/tips_on_quitting_vaping-->utter_asking_if_user_need_more_help
+affirm,yes__-->utter_vaping_details
+chitchat,is quitting vaping hard?__-->utter_chitchat/quit_vaping_hard?-->utter_asking_if_user_need_more_help
+affirm,yeah__-->utter_vaping_details
+chitchat,explain on the danger of nicotine__-->utter_chitchat/nicotine_dangerous-->utter_asking_if_user_need_more_help
+deny,nope__09/06/2022 20:22:48
+
+greet,hey__-->utter_greet-->utter_intro-->utter_vaping_details
+faq,/faq/benefits_quitting_vaping__-->utter_faq/benefits_quitting_vaping-->utter_asking_if_user_need_more_help
+affirm,yeah__-->utter_vaping_details
+faq,/faq/encouragement__-->utter_faq/encouragement-->utter_asking_if_user_need_more_help
+affirm,sure__-->utter_vaping_details
+faq,bad effect of vaping?__-->utter_faq/effect-->utter_asking_if_user_need_more_help
+chitchat,may i know the what is vaping?__-->utter_chitchat/what_is_vaping-->utter_asking_if_user_need_more_help
+deny,no__09/06/2022 21:09:24
+
+greet,hey__-->utter_greet-->utter_intro-->utter_vaping_details
+faq,/faq/benefits_quitting_vaping__-->utter_faq/benefits_quitting_vaping-->utter_asking_if_user_need_more_help
+affirm,yeah__-->utter_vaping_details
+faq,/faq/encouragement__-->utter_faq/encouragement-->utter_asking_if_user_need_more_help
+affirm,sure__-->utter_vaping_details
+faq,bad effect of vaping?__-->utter_faq/effect-->utter_asking_if_user_need_more_help
+chitchat,may i know the what is vaping?__-->utter_chitchat/what_is_vaping-->utter_asking_if_user_need_more_help
+deny,no__-->utter_feedback_confirmation
+deny,no__-->utter_goodbye
+greet,hey__-->utter_greet-->utter_intro-->utter_vaping_details
+chitchat,deez nuts on yur chin?PERSON,yur chin__-->utter_faq/encouragement-->utter_asking_if_user_need_more_help
+faq,how was taht motivation>?__-->utter_faq/encouragement-->utter_asking_if_user_need_more_help
+deny,nah__09/06/2022 21:09:24
+
+greet,hey__-->utter_greet-->utter_intro-->utter_vaping_details
+faq,/faq/benefits_quitting_vaping__-->utter_faq/benefits_quitting_vaping-->utter_asking_if_user_need_more_help
+affirm,yeah__-->utter_vaping_details
+faq,/faq/encouragement__-->utter_faq/encouragement-->utter_asking_if_user_need_more_help
+affirm,sure__-->utter_vaping_details
+faq,bad effect of vaping?__-->utter_faq/effect-->utter_asking_if_user_need_more_help
+chitchat,may i know the what is vaping?__-->utter_chitchat/what_is_vaping-->utter_asking_if_user_need_more_help
+deny,no__-->utter_feedback_confirmation
+deny,no__-->utter_goodbye
+greet,hey__-->utter_greet-->utter_intro-->utter_vaping_details
+chitchat,deez nuts on yur chin?PERSON,yur chin__-->utter_faq/encouragement-->utter_asking_if_user_need_more_help
+faq,how was taht motivation>?__-->utter_faq/encouragement-->utter_asking_if_user_need_more_help
+deny,nah bro__

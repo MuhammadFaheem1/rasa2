@@ -1,0 +1,433 @@
+version: "3.1"
+
+stories:
+- story: beginning
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_intro
+  - action: utter_vaping_details
+  - checkpoint: check_loop
+  - intent: faq
+  - action: utter_faq
+  - action: utter_asking_if_user_need_more_help
+  - checkpoint: check_asked_question
+
+- story: handle user affirm, need more help
+  steps:
+  - checkpoint: check_asked_question
+  - intent: affirm
+  - action: utter_vaping_details
+  - checkpoint: check_loop
+
+- story: handle user deny, no need help
+  steps:
+  - checkpoint: check_asked_question
+  - intent: deny
+  - action: action_save_conversation
+  - action: utter_feedback_confirmation
+  - checkpoint: check_feedback_confirmation
+
+- story: handle user affirm, giv feedback
+  steps:
+  - checkpoint: check_feedback_confirmation
+  - intent: affirm
+  - action: utter_feedback_form
+  - action: utter_thankyou
+  - action: utter_restart
+  - checkpoint: check_restart
+
+- story: handle user deny, no feedback
+  steps:
+  - checkpoint: check_feedback_confirmation
+  - intent: deny
+  - action: utter_thankyou
+  - action: utter_restart
+  - checkpoint: check_restart
+
+- story: handle user affirm, want to restart
+  steps:
+  - checkpoint: check_restart
+  - intent: affirm
+  - action: action_restart
+  - action: utter_greet
+  - action: utter_vaping_details
+  - checkpoint: check_loop
+
+- story: handle user deny, dont restart
+  steps:
+  - checkpoint: check_restart
+  - intent: deny
+  - action: utter_goodbye
+
+- story: handle fallback
+  steps:
+  - intent: nlu_fallback
+  - action: utter_fallback
+  - checkpoint: check_loop
+
+- story: id1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_intro
+  - action: utter_vaping_details
+  - intent: faq
+  - action: utter_faq
+  - action: utter_asking_if_user_need_more_help  
+  - intent: affirm
+  - action: utter_vaping_details
+  - intent: faq
+  - action: utter_faq
+  - action: utter_asking_if_user_need_more_help
+  - intent: affirm
+  - action: utter_vaping_details
+  - intent: faq
+  - action: utter_faq
+  - action: utter_asking_if_user_need_more_help #deny to ask more questions
+  - intent: deny
+  - action: action_save_conversation
+  - action: utter_feedback_confirmation #affirm to give feedback
+  - intent: affirm
+  - action: utter_feedback_form
+  - action: utter_thankyou
+  - action: utter_restart #user want to restart
+  - intent: affirm
+  - action: action_restart
+  - action: utter_greet 
+  - action: utter_vaping_details  
+  - intent: faq
+  - action: utter_faq
+  - action: utter_asking_if_user_need_more_help #deny to ask more questions
+  - intent: deny
+  - action: action_save_conversation
+  - action: utter_feedback_confirmation #affirm to give feedback
+  - intent: deny
+  - action: utter_thankyou
+  - action: utter_restart # do not restart
+  - intent: deny
+  - action: utter_goodbye
+
+- story: id2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_intro
+  - action: utter_vaping_details
+  - intent: faq
+  - action: utter_faq
+  - action: utter_asking_if_user_need_more_help  
+  - intent: affirm
+  - action: utter_vaping_details
+  - intent: faq
+  - action: utter_faq
+  - action: utter_asking_if_user_need_more_help #deny to ask more questions
+  - intent: deny
+  - action: action_save_conversation
+  - action: utter_feedback_confirmation #affirm to give feedback
+  - intent: affirm
+  - action: utter_feedback_form
+  - action: utter_thankyou
+  - action: utter_restart # do not restart
+  - intent: deny
+  - action: utter_goodbye
+
+  
+- story: interactive_story_1235213
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_intro
+  - action: utter_vaping_details
+  - intent: faq
+  - action: utter_faq
+  - action: utter_asking_if_user_need_more_help
+  - intent: affirm
+  - action: utter_vaping_details
+  - intent: out_of_scope
+  - action: utter_out_of_scope
+  - action: utter_vaping_details
+  - intent: faq
+  - action: utter_faq
+  - action: utter_asking_if_user_need_more_help
+  - intent: faq
+  - action: utter_faq
+  - action: utter_asking_if_user_need_more_help
+  - intent: deny
+  - action: action_save_conversation
+  - action: utter_feedback_confirmation
+  - intent: deny
+  - action: utter_thankyou
+  - action: utter_restart
+  - intent: affirm
+  - action: action_restart
+  - action: utter_greet
+  - action: utter_vaping_details
+  - intent: faq
+  - action: utter_faq
+  - action: utter_asking_if_user_need_more_help
+  - intent: affirm
+  - action: utter_vaping_details
+  - intent: faq
+  - action: utter_faq
+  - action: utter_asking_if_user_need_more_help
+  - intent: deny
+  - action: action_save_conversation
+  - action: utter_feedback_confirmation
+  - intent: deny
+  - action: utter_thankyou
+  - action: utter_restart
+  - intent: deny
+  - action: utter_goodbye
+
+- story: interactive_story_2213124
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_intro
+  - action: utter_vaping_details
+  - intent: faq
+  - action: utter_faq
+  - action: utter_asking_if_user_need_more_help
+  - intent: faq
+  - action: utter_faq
+  - action: utter_asking_if_user_need_more_help
+  - intent: deny
+  - action: action_save_conversation
+  - action: utter_feedback_confirmation
+  - intent: deny
+  - action: utter_thankyou
+  - action: utter_restart
+  - intent: deny
+  - action: utter_goodbye
+
+- story: interactive_story_1234235
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_intro
+  - action: utter_vaping_details
+  - intent: faq
+  - action: utter_faq
+  - action: utter_asking_if_user_need_more_help
+  - intent: affirm
+  - action: utter_vaping_details
+  - intent: faq
+  - action: utter_faq
+  - action: utter_asking_if_user_need_more_help
+  - intent: deny
+  - action: action_save_conversation
+  - action: utter_feedback_confirmation
+  - intent: deny
+  - action: utter_thankyou
+  - action: utter_restart
+  - intent: deny
+  - action: utter_goodbye
+
+- story: interactive_story_1234234
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_intro
+  - action: utter_vaping_details
+  - intent: faq
+  - action: utter_faq
+  - action: utter_asking_if_user_need_more_help
+  - intent: affirm
+  - action: utter_vaping_details
+  - intent: faq
+  - action: utter_faq
+  - action: utter_asking_if_user_need_more_help
+  - intent: affirm
+  - action: utter_vaping_details
+  - intent: faq
+  - action: utter_faq
+  - action: utter_asking_if_user_need_more_help
+  - intent: affirm
+  - action: utter_vaping_details
+  - intent: faq
+  - action: utter_faq
+  - action: utter_asking_if_user_need_more_help
+  - intent: deny
+  - action: action_save_conversation
+  - action: utter_feedback_confirmation
+  - intent: affirm
+  - action: utter_feedback_form
+  - action: utter_thankyou
+  - action: utter_restart
+  - intent: deny
+  - action: utter_goodbye
+
+- story: interactive_story_234234
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_intro
+  - action: utter_vaping_details
+  - intent: chitchat
+  - action: utter_chitchat
+  - action: utter_asking_if_user_need_more_help
+  - intent: faq
+  - action: utter_faq
+  - action: utter_asking_if_user_need_more_help
+  - intent: affirm
+  - action: utter_vaping_details
+  - intent: chitchat
+  - action: utter_chitchat
+  - action: utter_asking_if_user_need_more_help
+  - intent: affirm
+  - action: utter_vaping_details
+  - intent: chitchat
+  - action: utter_chitchat
+  - action: utter_asking_if_user_need_more_help
+  - intent: deny
+  - action: action_save_conversation
+  - action: utter_feedback_confirmation
+  - intent: deny
+  - action: utter_goodbye
+
+- story: interactive_story_1234234
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_intro
+  - action: utter_vaping_details
+  - intent: faq
+  - action: utter_faq
+  - action: utter_asking_if_user_need_more_help
+  - intent: affirm
+  - action: utter_vaping_details
+  - intent: faq
+  - action: utter_faq
+  - action: utter_asking_if_user_need_more_help
+  - intent: affirm
+  - action: utter_vaping_details
+  - intent: faq
+  - action: utter_faq
+  - action: utter_asking_if_user_need_more_help
+  - intent: affirm
+  - action: utter_vaping_details
+  - intent: faq
+  - action: utter_faq
+  - action: utter_asking_if_user_need_more_help
+  - intent: deny
+  - action: action_save_conversation
+  - action: utter_feedback_confirmation
+  - intent: affirm
+  - action: utter_feedback_form
+  - action: utter_thankyou
+  - action: utter_restart
+  - intent: deny
+  - action: utter_goodbye
+
+
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_intro
+  - action: utter_vaping_details
+  - intent: faq
+  - action: utter_faq
+  - action: utter_asking_if_user_need_more_help
+  - intent: chitchat
+  - action: utter_chitchat
+  - action: utter_asking_if_user_need_more_help
+  - intent: chitchat
+  - action: utter_chitchat
+  - action: utter_asking_if_user_need_more_help
+  - intent: deny
+  - action: action_save_conversation
+  - action: utter_feedback_confirmation
+  - intent: deny
+  - action: utter_thankyou
+  - action: utter_restart
+  - intent: deny
+  - action: utter_goodbye
+
+- story: interactive_story_2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_intro
+  - action: utter_vaping_details
+  - intent: faq
+  - action: utter_faq
+  - action: utter_asking_if_user_need_more_help
+  - intent: chitchat
+  - action: utter_chitchat
+  - action: utter_asking_if_user_need_more_help
+  - intent: deny
+  - action: action_save_conversation
+  - action: utter_feedback_confirmation
+  - intent: deny
+  - action: utter_thankyou
+  - action: utter_restart
+  - intent: deny
+  - action: utter_goodbye
+
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_intro
+  - action: utter_vaping_details
+  - intent: faq
+  - action: utter_faq
+  - action: utter_asking_if_user_need_more_help
+  - intent: faq
+  - action: utter_faq
+  - action: utter_asking_if_user_need_more_help
+  - intent: faq
+  - action: utter_faq
+  - action: utter_asking_if_user_need_more_help
+  - intent: deny
+  - action: action_save_conversation
+  - action: utter_feedback_confirmation
+  - intent: deny
+  - action: utter_thankyou
+  - action: utter_restart
+  - intent: affirm
+  - action: action_restart
+
+- story: interactive_story_2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_intro
+  - action: utter_vaping_details
+  - intent: faq
+  - action: utter_faq
+  - action: utter_asking_if_user_need_more_help
+  - intent: faq
+  - action: utter_faq
+  - action: utter_asking_if_user_need_more_help
+  - intent: faq
+  - action: utter_faq
+  - action: utter_asking_if_user_need_more_help
+  - intent: deny
+  - action: action_save_conversation
+  - action: utter_feedback_confirmation
+  - intent: affirm
+  - action: utter_feedback_form
+  - action: utter_thankyou
+  - action: utter_restart
+  - intent: deny
+
+- story: interactive_story_3
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_intro
+  - action: utter_vaping_details
+  - intent: faq
+  - action: utter_faq
+  - action: utter_asking_if_user_need_more_help
+  - intent: deny
+  - action: action_save_conversation
+  - action: utter_feedback_confirmation
+  - intent: deny
+  - action: utter_thankyou
+  - action: utter_restart
+  - intent: deny
+  - action: utter_goodbye
