@@ -22,4 +22,4 @@ ADD config.yml config.yml
 ADD domain.yml domain.yml
 ADD credentials.yml credentials.yml
 ADD endpoints.yml endpoints.yml
-ADD vapingchitchat.yml vapingchitchat.yml
+
