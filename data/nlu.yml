@@ -126,6 +126,7 @@ nlu:
     - yeah
     - yea
     - yeazza
+    - yup
 - intent: deny
   examples: |
     - no
@@ -145,6 +146,8 @@ nlu:
     - what is vaping?
     - what is the cost of vaping?
     - what is the ingredients inside vape?
+    - can you explain to me what is vaping?
+    - vaping cost
 - intent: faq
   examples: |
     - give me some tips to stop vaping
@@ -156,6 +159,7 @@ nlu:
     - what are the effects of vaping?
     - what is your name?
     - can i u tell how to quit vaping?
+    - vaping is bad?
 - intent: restart
   examples: |
     - restart
@@ -191,7 +195,6 @@ nlu:
     - ingredient in vape liquid?
     - vape juice ingredient
     - vape liquid ingredient
-    - What is in vape juice or e-liquid?
     - what is the substances contain in the vape liquid?
     - substances in vape juice?
     - substances in vape liquid?
@@ -231,12 +234,10 @@ nlu:
     - vape cost
     - cost of vape device
     - vost of vape
-
 - intent: out_of_scope
   examples: |
     - what do you do with my data?
-    
+    - deez nuts on your chain?
 - intent: chitchat/name
   examples: |
     - what is your name?
-

@@ -16,11 +16,11 @@ intents:
 - chit_chat
 responses:
   utter_greet:
-  - text: Hi there!
-  - text: hey!
-  - text: hi!
+  - text: Hi there! I'm a Quit Vaping chatbot! How may I help you?
+  - text: Hey! I'm a Quit Vaping chatbot! How may I help you?
+  - text: Hi! I'm a Quit Vaping chatbot! How may I help you?
   utter_intro:
-  - text: I'm a chatbot that can help you on your journey to quit vaping!
+  - text: "You may restart the conversation anytime you reply with 'restart'"
   # utter_make_choice:
   # - text: 'You can either choose the button below, or ask directly based on these given topics. '
   utter_vaping_details:

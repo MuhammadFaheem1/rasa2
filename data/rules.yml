@@ -22,13 +22,14 @@ rules:
   steps:
   - intent: nlu_fallback
   - action: utter_fallback
+  - action: action_restart
+  - action: utter_vaping_details
 
 - rule: restart
   steps:
   - intent: restart
   - action: action_restart
-  - action: utter_greet
-  - action: utter_vaping_details
+
 
 
 - rule: out of scope
